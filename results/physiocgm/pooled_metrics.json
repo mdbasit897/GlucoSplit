@@ -1,0 +1,42 @@
+{
+  "pooled_event": {
+    "label": "pooled_event_level",
+    "n": 33757,
+    "mae": 35.02679433384198,
+    "rmse": 46.02343265405207,
+    "r2": -0.04043048871554911,
+    "mard": 28.97417566377321,
+    "clarke_A_pct": 42.87,
+    "clarke_B_pct": 50.97,
+    "clarke_C_pct": 0.0,
+    "clarke_D_pct": 6.16,
+    "clarke_E_pct": 0.01
+  },
+  "pooled_window": {
+    "label": "pooled_window_level",
+    "n": 134729,
+    "mae": 35.231151305704266,
+    "rmse": 46.24133759749733,
+    "r2": -0.050527207388482376,
+    "mard": 29.18347474421976,
+    "clarke_A_pct": 42.74,
+    "clarke_B_pct": 51.1,
+    "clarke_C_pct": 0.0,
+    "clarke_D_pct": 6.15,
+    "clarke_E_pct": 0.01
+  },
+  "meta": {
+    "dataset": "PhysioCGM",
+    "tau_minutes": 5.0,
+    "window_width_minutes": 10.0,
+    "windows_per_reading": 4,
+    "window_seconds": 30,
+    "fs": 250,
+    "glucose_units": "mg/dL",
+    "conversion_factor": 1.0,
+    "n_windows": 135902,
+    "n_events": 33757,
+    "n_subjects": 10,
+    "created": "2026-07-26T16:27:55.674264"
+  }
+}

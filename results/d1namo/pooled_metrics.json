@@ -1,0 +1,41 @@
+{
+  "pooled_event": {
+    "label": "pooled_event_level",
+    "n": 52,
+    "mae": 40.97392381282714,
+    "rmse": 54.43973911201713,
+    "r2": -0.020566500327681148,
+    "mard": 40.110600574957935,
+    "clarke_A_pct": 36.54,
+    "clarke_B_pct": 50.0,
+    "clarke_C_pct": 0.0,
+    "clarke_D_pct": 13.46,
+    "clarke_E_pct": 0.0
+  },
+  "pooled_window": {
+    "label": "pooled_window_level",
+    "n": 1021,
+    "mae": 41.27178109120918,
+    "rmse": 55.32635346494539,
+    "r2": -0.04467201773408691,
+    "mard": 40.36724771530127,
+    "clarke_A_pct": 37.61,
+    "clarke_B_pct": 48.68,
+    "clarke_C_pct": 0.0,
+    "clarke_D_pct": 13.71,
+    "clarke_E_pct": 0.0
+  },
+  "meta": {
+    "tau_minutes": 5.0,
+    "window_width_minutes": 10.0,
+    "window_seconds": 30,
+    "step_seconds": 15,
+    "fs": 250,
+    "glucose_units": "mg/dL",
+    "conversion_factor": 18.0182,
+    "n_windows": 138747,
+    "n_events": 52,
+    "n_subjects": 20,
+    "created": "2026-07-25T15:59:56.515656"
+  }
+}

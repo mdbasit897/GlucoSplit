@@ -1,0 +1,62 @@
+{
+  "d1namo_to_physiocgm": {
+    "transfer": {
+      "label": "preprocessed_data_taup5.pkl->PhysioCGM",
+      "n": 33757,
+      "mae": 42.57232874097613,
+      "rmse": 57.335944220593994,
+      "r2": -0.6147637578830127,
+      "mard": 31.263730839550778,
+      "clarke_A_pct": 36.34,
+      "clarke_B_pct": 57.69,
+      "clarke_C_pct": 0.02,
+      "clarke_D_pct": 5.7,
+      "clarke_E_pct": 0.25,
+      "n_target_events": 33757,
+      "n_features": 51
+    },
+    "baseline": {
+      "label": "predict_source_mean(126)",
+      "n": 33757,
+      "mae": 33.9586197293191,
+      "rmse": 45.26766662284391,
+      "r2": -0.00654054400450832,
+      "mard": 27.79937262820181,
+      "clarke_A_pct": 44.7,
+      "clarke_B_pct": 49.12,
+      "clarke_C_pct": 0.0,
+      "clarke_D_pct": 6.17,
+      "clarke_E_pct": 0.0
+    }
+  },
+  "physiocgm_to_d1namo": {
+    "transfer": {
+      "label": "PhysioCGM->preprocessed_data_taup5.pkl",
+      "n": 52,
+      "mae": 52.37844715811967,
+      "rmse": 61.76279066217866,
+      "r2": -0.3135997574304916,
+      "mard": 58.01559598617978,
+      "clarke_A_pct": 26.92,
+      "clarke_B_pct": 59.62,
+      "clarke_C_pct": 0.0,
+      "clarke_D_pct": 13.46,
+      "clarke_E_pct": 0.0,
+      "n_target_events": 52,
+      "n_features": 51
+    },
+    "baseline": {
+      "label": "predict_source_mean(129)",
+      "n": 52,
+      "mae": 41.58614943548121,
+      "rmse": 54.045364858200756,
+      "r2": -0.005833611812747774,
+      "mard": 41.5223527381186,
+      "clarke_A_pct": 32.69,
+      "clarke_B_pct": 53.85,
+      "clarke_C_pct": 0.0,
+      "clarke_D_pct": 13.46,
+      "clarke_E_pct": 0.0
+    }
+  }
+}

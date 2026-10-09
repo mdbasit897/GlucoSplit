@@ -1,0 +1,40 @@
+{
+  "label": "DINAMO",
+  "n_events": 52,
+  "n_subjects": 20,
+  "n_boot": 10000,
+  "ci": {
+    "r2": {
+      "point": -0.0206,
+      "ci_low": -0.2404,
+      "ci_high": 0.0535,
+      "boot_mean": -0.0557,
+      "boot_median": -0.0424,
+      "n_valid_replicates": 10000
+    },
+    "mard": {
+      "point": 40.1106,
+      "ci_low": 27.1612,
+      "ci_high": 52.438,
+      "boot_mean": 39.6815,
+      "boot_median": 39.6078,
+      "n_valid_replicates": 10000
+    },
+    "mae": {
+      "point": 40.9739,
+      "ci_low": 29.5725,
+      "ci_high": 50.926,
+      "boot_mean": 40.4831,
+      "boot_median": 40.5431,
+      "n_valid_replicates": 10000
+    },
+    "rmse": {
+      "point": 54.4397,
+      "ci_low": 38.0474,
+      "ci_high": 66.0875,
+      "boot_mean": 53.3958,
+      "boot_median": 53.8459,
+      "n_valid_replicates": 10000
+    }
+  }
+}

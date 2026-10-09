@@ -1,0 +1,40 @@
+{
+  "label": "PhysioCGM",
+  "n_events": 33757,
+  "n_subjects": 10,
+  "n_boot": 10000,
+  "ci": {
+    "r2": {
+      "point": -0.0404,
+      "ci_low": -0.1483,
+      "ci_high": -0.0006,
+      "boot_mean": -0.0579,
+      "boot_median": -0.052,
+      "n_valid_replicates": 10000
+    },
+    "mard": {
+      "point": 28.9742,
+      "ci_low": 26.6486,
+      "ci_high": 31.2725,
+      "boot_mean": 28.9581,
+      "boot_median": 28.9559,
+      "n_valid_replicates": 10000
+    },
+    "mae": {
+      "point": 35.0268,
+      "ci_low": 32.1241,
+      "ci_high": 38.3803,
+      "boot_mean": 35.0474,
+      "boot_median": 34.9733,
+      "n_valid_replicates": 10000
+    },
+    "rmse": {
+      "point": 46.0234,
+      "ci_low": 40.6692,
+      "ci_high": 51.5757,
+      "boot_mean": 45.9747,
+      "boot_median": 45.8959,
+      "n_valid_replicates": 10000
+    }
+  }
+}
